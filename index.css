@@ -1,0 +1,75 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(1, 5, 8);
+    margin:1%;
+}
+
+#logo{
+    max-width: 30%;
+}
+
+#header img {
+    object-fit: cover;
+}
+#compra{
+    margin: 1px;
+}
+#margentarj{
+    margin-top: 15px;
+}
+#tarjeta:hover{
+    -webkit-transform:scale(0.95);transform:scale(0.95);
+    overflow:hidden;
+    transition:all .5s ease-in-out;
+    filter: grayscale(40%);
+}
+#tarjeta{
+    margin: 1%;
+    padding: 1px;
+    border-radius: 12px 12px 12px 12px;
+    max-height: 20%;
+}
+#tarjeta img{
+    border-radius: 12px 12px 12px 12px;
+}
+
+#footer {
+    background: linear-gradient(90deg,#13352b,#213b39 25%,#1e6c72);
+    color: rgb(172, 141, 184);
+    margin-top: 10px;
+}
+#footer a {
+    color: white;
+}
+#footer img {
+    display:block;
+    margin:auto;
+    width: 50%;
+    padding: 2%;
+}
+
+#navbarSupportedContent{
+    font-size:120%;
+}
+
+.carousel{
+    margin-top: 120px;
+    max-height: 20%;
+    margin-left:2%;
+    
+}
+#instrumentos{
+    margin-left: 1%;
+    margin-right: 30%;
+}
+#ingresonav{
+    background: rgb(253, 253, 253);
+    margin-top: 3%;
+    padding: 2%;
+    border-radius: 12px 12px 12px 12px;
+}
+#mensaje{
+    margin: 1px;
+}
+
